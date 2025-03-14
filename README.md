@@ -8,7 +8,7 @@ HumanCLIP is a finetuned version of [AlphaCLIP](https://github.com/SunzeY/AlphaC
 Coming soon...
 
 ## Citation
-If you find our work helpful for your research, please consider a citation.
+If you find our work helpful for your research, please consider citing:
 ```bibtex
 @misc{suzuki2025open,
       title={Open-Vocabulary Semantic Part Segmentation of 3D Human}, 
