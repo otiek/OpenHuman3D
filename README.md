@@ -1,6 +1,8 @@
 # Open-Vocabulary Semantic Part Segmentation of 3D Human (3DV 2025)
 This is the official repository for the paper **["Open-Vocabulary Semantic Part Segmentation of 3D Human"](https://arxiv.org/pdf/2502.19782)**.
 
+![Example of our 3D human segmentation results](assets/cover_figure.png)
+
 ## HumanCLIP
 HumanCLIP is a finetuned version of [AlphaCLIP](https://github.com/SunzeY/AlphaCLIP) on 2D human image data. The checkpoint for the "ViT-L/14" model can be downloaded from this [link](https://drive.google.com/file/d/1d9g_tEeyUd3u9uUIw42oknenzo9IWEJH/view?usp=sharing).
 
