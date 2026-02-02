@@ -20,7 +20,7 @@ We tested our code on pytorch 2.1.0 and pytorch3d 0.7.5 with CUDA 12.1 on a sing
 pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0+cu121 --index-url https://download.pytorch.org/whl/cu121
 pip install pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py310_cu121_pyt210/download.html
 ```
-Install SAM:
+Install [SAM](https://github.com/facebookresearch/segment-anything):
 ```bash
 pip install git+https://github.com/facebookresearch/segment-anything.git
 ```
@@ -34,6 +34,7 @@ pip install -r requirements.txt
 mkdir checkpoints
 ```
 HumanCLIP: The checkpoint for the "ViT-L/14" model can be downloaded from this [link](https://drive.google.com/file/d/1XGVLXfO33gs4Jib9EYQ0frQTolXNg3Qc/view?usp=drive_link). Place 'humanclip.pth' under the 'checkpoints' directory.
+
 SAM: Download the ['sam_vit_h_4b8939'](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) checkpoint and place under the 'checkpoints' directory.
 
 ## Inference
