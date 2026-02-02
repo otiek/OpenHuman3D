@@ -1,0 +1,12 @@
+DATA:
+  dataset: THuman
+  mesh_name: "0343"
+  mesh_path: ./examples/0343/0343.obj
+  texture_path: ./examples/0343/material0.jpeg
+  output_dir: ./outputs
+RENDER:
+  num_views: 8
+  num_samples: 100000
+SEGMENT:
+  class_texts: ['hair', 'face', 'arms', 'watch', 't-shirt', 'pants', 'socks']
+  class_labels: [0, 1, 2, 3, 4, 5, 6]
