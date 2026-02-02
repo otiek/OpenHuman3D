@@ -75,6 +75,12 @@ def main(save_dir, mesh_path, class_texts, model, device):
     indices = indices[:, 0]
     label = label[indices]
     
+    # save labels
+    output = np.concatenate((vertices, label[:, None]), axis=1)
+    output_path = os.path.join(save_dir, 'labels.txt')
+    np.savetxt(output_path, output, fmt="%6f")
+    
+    # visualize segmentation results
     colormap = np.array(color_palette['THuman']) / 255
     vis_label = convert_label(label, colormap)
     visualize(vertices, vis_label)
