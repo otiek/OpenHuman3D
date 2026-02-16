@@ -55,12 +55,12 @@ python segment.py --config configs/0520.yaml
 ## Citation
 If you find our work helpful for your research, please consider citing:
 ```bibtex
-@misc{suzuki2025open,
-      title={Open-Vocabulary Semantic Part Segmentation of 3D Human}, 
-      author={Keito Suzuki and Bang Du and Girish Krishnan and Kunyao Chen and Runfa Blark Li and Truong Nguyen},
-      year={2025},
-      eprint={2502.19782},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{suzuki2025open,
+  title={Open-vocabulary semantic part segmentation of 3d human},
+  author={Suzuki, Keito and Du, Bang and Krishnan, Girish and Chen, Kunyao and Li, Runfa Blark and Nguyen, Truong},
+  booktitle={2025 International Conference on 3D Vision (3DV)},
+  pages={1572--1582},
+  year={2025},
+  organization={IEEE}
 }
 ```
